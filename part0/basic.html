@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto|Noto+Serif+Devanagari"
+          rel="stylesheet" type="text/css">
+    <title>My First HTML</title>
+</head>
+<body>
+<p>
+    Web development changes fast, but some things will change rather slowly. The
+    interplay between three pieces of technology is of essence:
+</p>
+<ul>
+    <li>HTML decides the structure of the document.</li>
+    <li>CSS(s) determine the presentation or form of the
+        elements of the document. If everything else remains
+        the same, a change in CSS will uniformly change the
+        look and feel of the documents on a website.
+    </li>
+    <li>JavaScript (as of now) determines the behavior
+        of the elements of the document.
+    </li>
+</ul>
+<p>
+    I think humans should learn to live peacefully. Looking around the globe, one does not fail to notice the strange
+    situation
+    we are in: War, terrorism, injustice, ignorance, dishonesty. Sigh.
+</p>
+<p>
+    Perhaps we should realize that the power of love is more worthwhile than the love of power.
+</p>
+
+<p class="dev">
+    अयं निजः परोवेति गणना लघुचेतसाम्। <br>
+    उदारचारितानां तु वसुधैवकुटुम्बकम्॥
+</p>
+<p>
+    Web forms are one of the main points of interaction between a user and a web
+    site or application. Forms allow users to enter data, which is generally
+    sent to a web server for processing and storage (see Sending form data later
+    in the module), or used on the client-side to immediately update the
+    interface in some way (for example, add another item to a list, or show or
+    hide a UI feature).
+</p>
+<p>
+    A web form's HTML is made up of one or more form controls (sometimes called
+    widgets), plus some additional elements to help structure the overall form
+    — they are often referred to as HTML forms.
+</p>
+<form action="/my-handling-form-page" method="post">
+    <ul>
+        <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" value="default: Joe">
+        </li>
+        <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_email">
+        </li>
+        <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="button">
+            <button type="submit">Send your message</button>
+            <input type="reset">
+        </li>
+    </ul>
+</form>
+</body>
+</html>
